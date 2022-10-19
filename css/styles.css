@@ -491,7 +491,7 @@ ul {
 }
 
 .backdrop.is-hidden {
-    /* opacity: 0; */
+    opacity: 0;
     pointer-events: none;
 }
 
@@ -512,6 +512,7 @@ ul {
     position: absolute;
     top: 8px;
     right: 8px;
+    z-index: 999;
 
     display: flex;
     justify-content: center;
@@ -523,10 +524,12 @@ ul {
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
 
+    cursor: pointer;
 }
 
 .modal .icon{
     fill: #000000;
+    cursor: pointer;
 }
 
 
